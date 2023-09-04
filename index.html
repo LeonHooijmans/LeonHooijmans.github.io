@@ -9,7 +9,7 @@
             background-color: #095A74
          ; /* Achtergrondkleur */
             color: white;
-            font-family: Arial, sans-serif;
+            font-family: Courier New, Courier New;
             margin: 0;
             padding: 0;
         }
@@ -19,7 +19,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 60px;
+            height: 70px;
         }
 
         .tabs {
@@ -29,7 +29,7 @@
         }
 
         .tab {
-            margin: 0 10px;
+            margin: 0 15px;
             cursor: pointer;
             color: white;
             font-weight: bold;
@@ -42,8 +42,8 @@
         }
 
         .content {
-            padding: 20px;
-            text-align: center;
+            padding: 45px;
+            text-align: left;
         }
 
         /* Standaard weergegeven tabblad */
@@ -61,16 +61,16 @@
 <body>
     <div class="header">
         <ul class="tabs">
-            <li class="tab" onclick="showTab('tab1')">Tab 1</li>
+            <li class="tab" onclick="showTab('tab1')">Welkom</li>
             <li class="tab" onclick="showTab('tab2')">Tab 2</li>
             <li class="tab" onclick="showTab('tab3')">Tab 3</li>
         </ul>
     </div>
 
     <div class="content">
-        <div id="tab1-content">
+        <div id="Tab1-content">
             <h1>Welkom</h1>
-            <p>Dit is de inhoud van Tab 1.</p>
+            <p>Op mijn website</p>
         </div>
 
         <div id="tab2-content">
