@@ -1,7 +1,115 @@
-html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeonHooijmans</title>
+    <style>
+        body {
+            background-color: #095A74; /* Achtergrondkleur */
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 1;
+        }
 
+        .header {
+            background-color: #000; /* Zwarte balk */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+        }
 
+        .tabs {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+        }
 
+        .tab {
+            margin: 0 15px;
+            cursor: pointer;
+            color: white;
+            font-weight: bold;
+            transition: transform 0.2s ease-in-out;
+        }
 
+        .tab:hover {
+            text-decoration: underline;
+            transform: translateY(-3px); /* Beweeg omhoog bij aanraking */
+        }
 
+        .content {
+            padding: 21px;
+            text-align: center;
+        }
+
+        /* Standaard weergegeven tabblad */
+        #tab1-content {
+            display: block;
+        }
+
+        /* Verberg de andere tabbladen */
+        #tab2-content,
+        #tab3-content
+        #tab4-content{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul class="tabs">
+            <li class="tab" onclick="showTab('tab1')">Welkom</li>
+            <li class="tab" onclick="showTab('tab2')">Binair Stelsel</li>
+            <li class="tab" onclick="showTab('tab3')">Tab 3</li>
+            <li class="tab" onclick="showTab('tab4')">Tab 4</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div id="tab1-content">
+            <h1>Welkom</h1>
+            <p>Op mijn website</p>
+            <p class="moved-text">Léon Hooijmans<P>
+<style>
+  .moved-text {
+    position: relative;
+    top: 300px;
+    left: -280px;
+  }
+</style>
+        </div>
+
+        <div id="tab2-content">
+            <h1>Binair Stelsel</h1>
+            <p>Dit is de inhoud van Tab 2.</p>
+        </div>
+
+        <div id="tab3-content">
+            <h1>Tab 3 Inhoud</h1>
+            <p>Dit is de inhoud van Tab 3.</p>
+     </div>
+     
+     <div id="tab4-content">
+     <h1>Tab 4 Inhoud</h1>
+     <p>Dit is de inhoud van Tab 4.</p>
+     </div>
+     
+    </div>
+
+    <script>
+        function showTab(tabId) {
+            // Verberg alle tabbladinhoud
+            var tabContents = document.querySelectorAll(".content > div");
+            tabContents.forEach(function(tabContent) {
+                tabContent.style.display = "none";
+            });
+
+            // Toon het geselecteerde tabblad
+            document.getElementById(tabId + "-content").style.display = "block";
+        }
+    </script>
+</body>
 </html>
