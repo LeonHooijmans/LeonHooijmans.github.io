@@ -182,3 +182,9 @@ button:hover {
 </html>
 
 <img src="Boris-de-hond.jpg" alt="Boris de hond" class="kleine-afbeelding">
+
+img {
+    float: right;
+    margin-right: 300px;
+    margin-bottom: 200px;
+}

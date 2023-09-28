@@ -52,10 +52,20 @@ body {
     }
 }
 
+.container {
+    position: relative; /* Maak de container een positiecontext voor absolute positionering */
+}
+
 img {
-    float: right;
-    margin-right: 300px;
-    margin-bottom: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 </style>
