@@ -16,44 +16,44 @@ h1 {
 
 button {
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-} 
+} /*Hier mee geef ik de tekst in de buttons een schaduw*/
 
 button {
 border: 1px solid #000000;
 border-radius: 10px;
-}
+} /*Hier mee geef ik de buttons ronde hoeken*/
 
 button:hover {
 background-color: #B8B7B7;
-}
+} /*Hier mee pas ik de kleur aan bij het hoveren van de buttons*/
 
 button:hover {
     transform: translateY(-5px);
-}
+} /*Hier meer laat ik de buttons omhoog bewegen bij hoveren*/
         
 button {
 width: 120px;
 height: 20px;
-}
+} /*Hier mee bepaal ik de grote van de */
 
 .button:active {
     transform: scale(0.95);
     background-color: #095A74;
-}
+} 
         
 ul.navbar {
     margin: 0;
     padding: 0;
     background-color: #0A4C76;
     overflow: hidden;
-}
+} /*Hier mee geef ik de buttons een bar waar ze instaan*/
 
 @media (max-width: 768px) {
 button {
 width: 60%;
 margin: 10px 0;
 }
-}
+} /*Hier mee maak ik de buttons responsive op andere mobiele apparaten*/
 
 </style>
 </body>
