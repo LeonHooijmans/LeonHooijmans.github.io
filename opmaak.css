@@ -5,13 +5,6 @@ h1 {
     color: #FCFCFC;
 }
 
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-}
-
 .button {
     background-color: #7E9095;
     color: #fff;
