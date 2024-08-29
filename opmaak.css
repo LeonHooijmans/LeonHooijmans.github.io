@@ -1,62 +1,37 @@
-<body>
-<style>
+.button-container
+ {display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;}
 
-h1 {
-    color: #FCFCFC;
-}
+body
+ { background-color: #095A74;
+    color: white;
+    font-family: Arial, sans-serif;}
 
-.button {
-    background-color: #7E9095;
+header 
+{ background-color: #04374A;
+    color: #fafafa;
+    padding: 1px 0;
+    text-align: center;}
+
+footer 
+{ background-color: #373737;
     color: #fff;
-    padding: 15px 30px;
-    margin: 10px;
-    cursor: pointer;
-    transition: transform 0.2s ease, background-color 0.3s ease;
-} /*Hier mee geef ik aan hoe de buttons reageren bij hover*/
+    padding: 20px 0;
+    text-align: center; }
 
-button {
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-} /*Hier mee geef ik de tekst in de buttons een schaduw*/
+.tekst-container
+{ padding: 10px}
 
-button {
-border: 1px solid #000000;
-border-radius: 10px;
-} /*Hier mee geef ik de buttons ronde hoeken*/
+body 
+{ font-family: Arial, sans-serif;
+    text-align: center;}
 
-button:hover {
-background-color: #B8B7B7;
-} /*Hier mee pas ik de kleur aan bij het hoveren van de buttons*/
-
-button:hover {
-    transform: translateY(-5px);
-} /*Hier meer laat ik de buttons omhoog bewegen bij hoveren*/
-        
-button {
-width: 120px;
-height: 20px;
-} /*Hier mee bepaal ik de grote van de */
-
-.button:active {
-    transform: scale(0.95);
-    background-color: #095A74;
-} 
-        
-ul.navbar {
-    margin: 0;
+body 
+ { margin: 0;
     padding: 0;
-    background-color: #0A4C76;
-    overflow: hidden;
-} /*Hier mee geef ik de buttons een bar waar ze instaan*/
-
-@media (max-width: 768px) {
-button {
-width: 60%;
-margin: 10px 0;
-}
-} /*Hier mee maak ik de buttons responsive op andere mobiele apparaten*/
-
-</style>
-</body>
-
+    background-image: url('Blue-Abstract-Texture-Transparent-Background.png');
+    background-size: cover;}
 
 
