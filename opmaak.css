@@ -55,7 +55,7 @@ body
     
     .second-level-menu
     {
-        position: absolute;
+        position: right;
         top: 30px;
         left: 0;
         width: 150px;
