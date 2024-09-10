@@ -1,3 +1,8 @@
+body
+ { background-color: #095A74;
+    color: white;
+    font-family: Arial, sans-serif;}
+
 header 
 { background-color: #04374A;
     color: #fafafa;
@@ -9,7 +14,7 @@ footer
     color: #fff;
     padding: 20px 0;
     text-align: center; }
-    
+
 .third-level-menu
 {
     position: absolute;
