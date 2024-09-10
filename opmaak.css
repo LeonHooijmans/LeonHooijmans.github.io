@@ -67,7 +67,7 @@ body
     
     .second-level-menu > li
     {
-        position: relative;
+        position: sticky;
         height: 30px;
         background: #999999;
     }
