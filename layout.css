@@ -1,4 +1,15 @@
+header 
+{ background-color: #04374A;
+    color: #fafafa;
+    padding: 1px 0;
+    text-align: center;}
 
+footer 
+{ background-color: #373737;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center; }
+    
 .third-level-menu
 {
     position: absolute;
