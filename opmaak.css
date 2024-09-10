@@ -83,7 +83,7 @@ body
     .top-level-menu > li
     {
         position: relative;
-        float: left;
+        float: center;
         height: 30px;
         width: 150px;
         background: #999999;
