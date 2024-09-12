@@ -2,12 +2,14 @@ body
  { background-color: #095A74;
     color: white;
     font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
+    text-align: center;}
+
+body 
+ { margin: 0;
     padding: 0;
     background-image: url('Blue-Abstract-Texture-Transparent-Background.png');
     background-size: cover;}
-
+   
 header 
 { background-color: #04374A;
     color: #fafafa;
