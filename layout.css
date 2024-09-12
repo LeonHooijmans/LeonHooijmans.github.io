@@ -9,6 +9,13 @@ header
     padding: 1px 0;
     text-align: center;}
 
+.button-container
+ {display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;}
+   
+
 footer 
 { background-color: #373737;
     color: #fff;
