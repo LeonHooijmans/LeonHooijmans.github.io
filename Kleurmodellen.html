@@ -1,44 +1,7 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kleurmodellen</title>
-<link rel="stylesheet" type="text/css" href="opmaak.css">
-</head>
-<body>
+
 <style>
-
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-}
-
-body {
-    background-color: #095A74;
-    color: white;
-    font-family: Arial, sans-serif;
-}
-
-    header {
-    background-color: #04374A;
-    color: #fafafa;
-    padding: 1px 0;
-    text-align: center;
-}
-
-footer {
-    background-color: #373737;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    }
-
-.tekst-container {
-    padding: 10px
-}
-
 body {
     font-family: Arial, sans-serif;
     text-align: left;
@@ -55,60 +18,80 @@ body {
         margin: 10px 0;
     }
 }
-
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url('Blue-Abstract-Texture-Transparent-Background.png');
-    background-size: cover;
-}
-
 </style>
+
+<head>
+    <title>Kleurmodellen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="layout.css">
 </head>
+
 <body>
-
 <header>
- <h1>Kleurmodellen</h1>
-</header>
+    <h1>Kleurmodellen</h1>
+    </header>
 
-<ul class="navbar">
-    <div class="button-container">
-        <button class= <li><a href="index.html">Home</a> </button>
-        <button class= <li><a href="binairstelsel.html">Binairstelsel</a> </button>
-        <button class= <li><a href="Bitmap-Vectorafbeeldingen.html">Bitmap Vector</a> </button>
-        <button class= <li><a href="over.mij.html">Over mij</a> </button>
+    <ul class="top-level-menu">
+        <li><a>Menu</a>
+            <ul class="second-level-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="binairstelsel.html">Binairstelsel</a></li>
+                <li><a href="Kleurmodellen.html">Kleurmodellen</a></li>
+                <li><a href="cpu.html">cpu</a></li>
+                <li><a href="Bitmap-Vectorafbeeldingen.html">Bitmap Vector</a></li>
+                <li>
+                    <a href="cpu.html">Cpu</a>
+                    <ul class="third-level-menu">
+                        <li><a href="binairstelsel.html">Binairstelsel</a></li>
+                        <li><a href="cpu.html">cpu</a></li>
+                        <li>
+                            <a href="index.html">index.html</a>
+                            <ul class="third-level-menu">
+                                <li><a href="index.html">Information</a></li>
+                                <li><a href="index.html">Book a Meeting</a></li>
+                                <li><a href="index.html">Testimonials</a></li>
+                                <li><a href="index.html">Jobs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="index.html">Seattle</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="tekst-container">
+
+        <h3>Kleurmodellen: De Basis van Kleurrepresentatie</h3>
+
+        <p>Kleur is een fundamenteel aspect van ons dagelijks leven en speelt een cruciale rol in kunst, design, technologie en wetenschap. Om kleuren te begrijpen en effectief te kunnen manipuleren, maken we gebruik van kleurmodellen. Kleurmodellen zijn systemen waarmee we kleuren kunnen definiëren, weergeven en communiceren. Er zijn verschillende kleurmodellen in gebruik, maar de meest voorkomende zijn het RGB-model, het CMYK-model en het HSL/HSV-model.
+         </p>
+         
+         <h3>RGB-model (Rood-Groen-Blauw)</h3>
+         
+        <p>Het RGB-model is wijdverbreid in digitale displays, zoals computerschermen en televisies. Hierin worden kleuren gemaakt door verschillende hoeveelheden rood, groen en blauw licht te combineren. Elke kleur wordt weergegeven door drie waarden die de intensiteit van elk van deze primaire kleuren aangeven. Dit model is additief, wat betekent dat het mengen van de maximale hoeveelheden van elk van de drie kleuren resulteert in wit licht.</p>
+        
+        <img src="Kleurmodellen.jpg" alt="Kleurmodellen" class="kleine-afbeelding">
+        
+        <h3>CMYK-model (Cyaan, Magenta, Geel, Zwart)</h3>
+        
+        <p>Het CMYK-model wordt vooral gebruikt in drukwerk, zoals brochures en tijdschriften. Hier worden kleuren gecreëerd door de percentages cyaan, magenta, geel en zwart (de K staat voor Key, wat zwart betekent) inkt te mengen. Dit model is subtractief, wat betekent dat het toevoegen van meer inkt de kleur donkerder maakt en uiteindelijk resulteert in zwart.</p>
+        
+        <h3>HSL/HSV-model (Hue, Saturation, Lightness/Value)</h3>
+        <p>Het HSL-model en het HSV-model richten zich meer op de perceptuele aspecten van kleur. Ze bieden controle over de tint (kleur), verzadiging (intensiteit) en lichtheid (helderheid of waarde) van een kleur. Dit maakt het gemakkelijker om kleuren te begrijpen en aan te passen op basis van menselijke waarneming. Bijvoorbeeld, in dit model kun je gemakkelijk kleuren lichter of donkerder maken zonder de tint te veranderen.
+        
+        Kleurmodellen zijn essentieel voor grafisch ontwerpers, kunstenaars, fotografen en webontwikkelaars, omdat ze helpen bij het maken, beheren en reproduceren van kleuren met precisie. Bij het werken met digitale media of drukwerk is het begrip van kleurmodellen van onschatbare waarde om de gewenste resultaten te bereiken en consistentie te handhaven in verschillende apparaten en platforms. Het juiste kleurmodel kiezen voor een specifieke toepassing is een belangrijk aspect van het creëren van visueel aantrekkelijke en effectieve ontwerpen.</p>
+        
+        <h3>Bekijk dit filmpje voor meer uitleg over <a href="https://www.youtube.com/watch?v=cKaRxd6tdHY">Kleurmodellen</a></h3>
+        
     </div>
-</ul>
-
-<div class="tekst-container" >
-
-    <h3>Kleurmodellen: De Basis van Kleurrepresentatie</h3>
-
-<p>Kleur is een fundamenteel aspect van ons dagelijks leven en speelt een cruciale rol in kunst, design, technologie en wetenschap. Om kleuren te begrijpen en effectief te kunnen manipuleren, maken we gebruik van kleurmodellen. Kleurmodellen zijn systemen waarmee we kleuren kunnen definiëren, weergeven en communiceren. Er zijn verschillende kleurmodellen in gebruik, maar de meest voorkomende zijn het RGB-model, het CMYK-model en het HSL/HSV-model.
- </p>
- 
- <h3>RGB-model (Rood-Groen-Blauw)</h3>
- 
-<p>Het RGB-model is wijdverbreid in digitale displays, zoals computerschermen en televisies. Hierin worden kleuren gemaakt door verschillende hoeveelheden rood, groen en blauw licht te combineren. Elke kleur wordt weergegeven door drie waarden die de intensiteit van elk van deze primaire kleuren aangeven. Dit model is additief, wat betekent dat het mengen van de maximale hoeveelheden van elk van de drie kleuren resulteert in wit licht.</p>
-
-<img src="Kleurmodellen.jpg" alt="Kleurmodellen" class="kleine-afbeelding">
-
-<h3>CMYK-model (Cyaan, Magenta, Geel, Zwart)</h3>
-
-<p>Het CMYK-model wordt vooral gebruikt in drukwerk, zoals brochures en tijdschriften. Hier worden kleuren gecreëerd door de percentages cyaan, magenta, geel en zwart (de K staat voor Key, wat zwart betekent) inkt te mengen. Dit model is subtractief, wat betekent dat het toevoegen van meer inkt de kleur donkerder maakt en uiteindelijk resulteert in zwart.</p>
-
-<h3>HSL/HSV-model (Hue, Saturation, Lightness/Value)</h3>
-<p>Het HSL-model en het HSV-model richten zich meer op de perceptuele aspecten van kleur. Ze bieden controle over de tint (kleur), verzadiging (intensiteit) en lichtheid (helderheid of waarde) van een kleur. Dit maakt het gemakkelijker om kleuren te begrijpen en aan te passen op basis van menselijke waarneming. Bijvoorbeeld, in dit model kun je gemakkelijk kleuren lichter of donkerder maken zonder de tint te veranderen.
-
-Kleurmodellen zijn essentieel voor grafisch ontwerpers, kunstenaars, fotografen en webontwikkelaars, omdat ze helpen bij het maken, beheren en reproduceren van kleuren met precisie. Bij het werken met digitale media of drukwerk is het begrip van kleurmodellen van onschatbare waarde om de gewenste resultaten te bereiken en consistentie te handhaven in verschillende apparaten en platforms. Het juiste kleurmodel kiezen voor een specifieke toepassing is een belangrijk aspect van het creëren van visueel aantrekkelijke en effectieve ontwerpen.</p>
-
-<h3>Bekijk dit filmpje voor meer uitleg over <a href="https://www.youtube.com/watch?v=cKaRxd6tdHY">Kleurmodellen</a></h3>
-
-</div>
-
+    
     <footer>
         <p>&copy; 2023 Mijn informatica Website, Leon Hooijmans</p>
-    </footer>
+        </footer>
 
 </body>
+
 </html>
