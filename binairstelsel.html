@@ -1,95 +1,66 @@
+<!DOCTYPE html>
 <html lang="en">
+
+<sytle>
+
+    .kleine-afbeelding {
+        width: 500px;
+        height: auto;
+    } /*Hier mee geef ik de grootte van een afbeelding aan, op sommige pagina's verschilt dat daarom staat het niet in de css*/
+           
+    @media (max-width: 768px) {
+        .kleine-afbeelding {
+            width: 80%;
+            margin: 10px 0;}
+    } /*Hier mee geef ik aan waar en hoe groot een afbeelding is op een andere mobiel apparaat*/
+
+</sytle>
+
+
+
 <head>
+    <title>Computerarchitectuur</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Binair stelsel</title>
-<link rel="stylesheet" type="text/css" href="opmaak.css">
+    <link rel="stylesheet" type="text/css" href="layout.css">
 </head>
+
 <body>
-<style>
-
-/*Ik laat in dit bestand zien wat mijn code doet, deze code staat op elke pagina.
- Ik heb ook nog een css bestand maar elke keer als ik iets veranderden in het bestand ging mijn website kapot.
- Ik moest dan de code terug zetten in elke html bestand anders werkte het niet meer. Ik ben meerdere uren bezig geweest
- om een oplossing te vinden maar het is mij niet gelukt. Uiteraad vond ik dit jammer en geef ik dit daarom nu aan.
- Een gedeelte van mijn ccs bestand werkt nog wel en wil er mee aangeven dat ik het gedeeltelijk wel snapte.*/
-
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-} /*Hier mee geef ik de Buttons een plek*/
-
-body {
-    background-color: #095A74;
-    color: white;
-    font-family: Arial, sans-serif;
-} /*Hier geef ik de kleur van mijn achtergrond en de kleur van de tekst aan*/
-
-header {
-    background-color: #04374A;
-    color: #fafafa;
-    padding: 1px 0;
-    text-align: center;
-} /*Hier mee geef ik de kleur van mijn header aan en waar de tekst komt te staan*/
-
-footer {
-    background-color: #373737;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    } /*Hier mee geef ik de kleur, de tekst kleur en de dikte van de footer aan*/
-
-.tekst-container {
-    padding: 10px
-} /*Hier mee geef ik aan waar de tekst komt te staan zodat hij niet te dicht tegen de zeikant aan staat*/
-
-body {
-    font-family: Arial, sans-serif;
-    text-align: left;
-} /*Hier mee geef ik het letter type aan en waar de tekst staat, daarom staat dit ook niet in de css, omdat het op sommige pagina's anders is*/
-
-.kleine-afbeelding {
-    width: 500px;
-    height: auto;
-} /*Hier mee geef ik de grootte van een afbeelding aan, op sommige pagina's verschilt dat daarom staat het niet in de css*/
-       
-@media (max-width: 768px) {
-    .kleine-afbeelding {
-        width: 80%;
-        margin: 10px 0;
-    }
-} /*Hier mee geef ik aan waar en hoe groot een afbeelding is op een andere mobiel apparaat*/
-
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url('Blue-Abstract-Texture-Transparent-Background.png');
-    background-size: cover;
-} /*Hier mee geef ik aan hoe mijn achtergrond in de website staat*/
-
-</style>
-
-</head>
-<body>
-
 <header>
- <h1>Binairstelsel</h1>  <!--H1 staat voor de groote van de tekst zo heb je ook h2,h3...-->
- </header>
+    <h1>Computerarchitectuur</h1>
+    </header>
 
+    <ul class="top-level-menu">
+        <li><a>Menu</a>
+            <ul class="second-level-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="binairstelsel.html">Binairstelsel</a></li>
+                <li><a href="Kleurmodellen.html">Kleurmodellen</a></li>
+                <li><a href="cpu.html">cpu</a></li>
+                <li><a href="Bitmap-Vectorafbeeldingen.html">Bitmap Vector</a></li>
+                <li>
+                    <a href="cpu.html">Cpu</a>
+                    <ul class="third-level-menu">
+                        <li><a href="binairstelsel.html">Binairstelsel</a></li>
+                        <li><a href="cpu.html">cpu</a></li>
+                        <li>
+                            <a href="index.html">index.html</a>
+                            <ul class="third-level-menu">
+                                <li><a href="index.html">Information</a></li>
+                                <li><a href="index.html">Book a Meeting</a></li>
+                                <li><a href="index.html">Testimonials</a></li>
+                                <li><a href="index.html">Jobs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="index.html">Seattle</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </li>
+    </ul>
 
-<ul class="navbar">
-    <div class="button-container">
-        <button class= <li><a href="index.html">Home</a> </button>
-        <button class= <li><a href="Kleurmodellen.html">Kleurmodellen</a> </button>
-        <button class= <li><a href="Bitmap-Vectorafbeeldingen.html">Bitmap Vector</a> </button>
-        <button class= <li><a href="over.mij.html">Over mij</a> </button> 
-    </div> 
-    </ul> <!--Dit zijn de buttuns voor de verschilende paginas-->
-
-<body>
-    <div class="tekst-container"> <!--hiermee geef ik aan dat de tekst in de tekst container moet-->
+<div class="tekst-container">
     <h1>Het Binaire Stelsel</h1>
     <p>Het binaire stelsel is een wiskundig systeem dat slechts twee cijfers gebruikt om getallen te vertegenwoordigen: 0 en 1. In tegenstelling tot het decimale stelsel, dat tien cijfers gebruikt (0-9), is het binaire stelsel gebaseerd op de kracht van 2. Dit betekent dat elk cijfer in een binaire notatie een exponent van 2 heeft.</p>
 
@@ -125,10 +96,11 @@ body {
 
     <p>Het begrijpen van het binaire stelsel is van essentieel belang voor de wereld van informatica en elektronica, omdat het de basis vormt voor de werking van moderne technologie. Het stelt ons in staat om informatie op te slaan, te verwerken en te communiceren met behulp van digitale apparaten en computers.</p>
 </div>
-
+    
     <footer>
         <p>&copy; 2023 Mijn informatica Website, Leon Hooijmans</p>
         </footer>
 
 </body>
+
 </html>
