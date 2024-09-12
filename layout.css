@@ -79,7 +79,7 @@ footer
 
 .top-level-menu > li
 {
-    position: static;
+    position: relative;
     float: left;
     height: 30px;
     width: 150px;
