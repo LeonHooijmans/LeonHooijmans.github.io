@@ -1,53 +1,15 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Over mij</title>
-<link rel="stylesheet" type="text/css" href="opmaak.css">
-</head>
-<body>
+
 <style>
-
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-}
-
-body {
-    background-color: #095A74;
-    color: white;
-    font-family: Arial, sans-serif;
-}
-
-header {
-    background-color: #04374A;
-    color: #fafafa;
-    padding: 1px 0;
-    text-align: center;
-}
-
-footer {
-    background-color: #373737;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    }
-
-.tekst-container {
-    padding: 10px
-}
-
-
 body {
     font-family: Arial, sans-serif;
     text-align: left;
 }
 
 .kleine-afbeelding {
-    width: auto;
-    height: 450px;
+    width: 500px;
+    height: auto;
 }
        
 @media (max-width: 768px) {
@@ -62,38 +24,55 @@ img {
     margin-right: 400px;
     margin-bottom: 0px;
     margin-top: 16px;
-} /*Hier mee geef ik aan waar de afbeelding op de pagina hoort te komen*/
-
-
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url('Blue-Abstract-Texture-Transparent-Background.png');
-    background-size: cover;
 }
 
 </style>
+
+<head>
+    <title>Over mij</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="layout.css">
 </head>
+
 <body>
-
 <header>
- <h1>Over mij</h1>
- </header>
+    <h1>Over mij</h1>
+    </header>
 
-
-<ul class="navbar">
-    <div class="button-container">
-        <button class= <li><a href="index.html">Home</a> </button>
-        <button class= <li><a href="binairstelsel.html">Binairstelsel</a> </button>
-        <button class= <li><a href="Kleurmodellen.html">Kleurmodellen</a> </button>
-        <button class= <li><a href="Bitmap-Vectorafbeeldingen.html">Bitmap Vector</a> </button>
-    </div>
+    <ul class="top-level-menu">
+        <li><a>Menu</a>
+            <ul class="second-level-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="binairstelsel.html">Binairstelsel</a></li>
+                <li><a href="Kleurmodellen.html">Kleurmodellen</a></li>
+                <li><a href="cpu.html">cpu</a></li>
+                <li><a href="Bitmap-Vectorafbeeldingen.html">Bitmap Vector</a></li>
+                <li>
+                    <a href="cpu.html">Cpu</a>
+                    <ul class="third-level-menu">
+                        <li><a href="binairstelsel.html">Binairstelsel</a></li>
+                        <li><a href="cpu.html">cpu</a></li>
+                        <li>
+                            <a href="index.html">index.html</a>
+                            <ul class="third-level-menu">
+                                <li><a href="index.html">Information</a></li>
+                                <li><a href="index.html">Book a Meeting</a></li>
+                                <li><a href="index.html">Testimonials</a></li>
+                                <li><a href="index.html">Jobs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="index.html">Seattle</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </li>
     </ul>
 
     <img src="Boris-de-hond.jpg" alt="Boris de hond" class="kleine-afbeelding">
-    
-    <div class="tekst-container">
 
+    <div class="tekst-container">
         <h2>Weetjes over mij</h2>
 
         <p>⚪ Mijn volle naam is Léon Johan Hooijmans</p>
@@ -106,13 +85,13 @@ body {
         <p>⚪ Mijn favoriete land waar ik heen geweest ben is Schotland</p>
         <p>⚪ Ik heb vroeger 4/5 jaar op judo gezetten</p>
         <p>⚪ Ik heb al mijn zwembreveten</p>
-        <p>⚪ Ik heb deze zomer mijn scooter rijbewijs gehaald</p>
-        
+        <p>⚪ Ik heb deze zomer mijn scooter rijbewijs gehaald</p>    
     </div>
-
+    
     <footer>
         <p>&copy; 2023 Mijn informatica Website, Leon Hooijmans</p>
         </footer>
 
 </body>
+
 </html>
