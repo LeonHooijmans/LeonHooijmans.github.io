@@ -26,7 +26,8 @@ header
  {padding: 10px }
 
 footer 
-{ background-color: #373737;
+{ position: fixed;
+    background-color: #373737;
     color: #fff;
     padding: 20px 0;
     text-align: center; }
