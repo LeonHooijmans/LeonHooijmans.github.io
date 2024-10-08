@@ -85,7 +85,7 @@ footer
     position: relative;
     float: left;
     height: 30px;
-    width: 150px;
+    width: 100px;
     background: #616465;
 }
 .top-level-menu > li:hover { background: #616465; }
