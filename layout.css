@@ -22,8 +22,11 @@ header
     align-items: center;
     height: 10vh;}
    
-.tekst-container 
- {padding: 10px }
+.tekst-container
+{padding-bottom: 50px;
+min-height: 100vh;
+box-sizing: border-box;
+}
 
 footer 
 { background-color: #373737;
