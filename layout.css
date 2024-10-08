@@ -15,12 +15,6 @@ header
     color: #fafafa;
     padding: 1px 0;
     text-align: center;}
-
-.button-container
- {display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;}
    
 .tekst-container
 {padding-bottom: 20px;
